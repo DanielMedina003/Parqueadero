@@ -1,0 +1,92 @@
+body{
+    background-image: url(Imagenes/img1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+form{
+    width: 600px;
+    border:  2px solid,rgb(143, 143, 143) ;
+    padding:  3rem;
+    background-color: rgba(255, 255, 255, 0.771);
+    border: none;
+    border-radius: 20px;
+    color: rgb(12, 11, 11);
+}
+
+h1{
+    display: block;
+    border: 2px solid,rgb(0, 0, 0);
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+
+}
+
+label{/*colores de usuario*/
+
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input{
+
+    display: block;
+    border: 2px solid,black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+button{/*boton de Registro*/
+
+    float: right;
+    background-color: rgb(1, 1, 1);
+    padding: .5rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+button:hover{
+
+    background-color: rgb(187, 188, 191);
+    color: black;
+}
+a{
+
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+a:hover{
+
+    color: rgb(0, 0, 0);
+}
+
+.registrofondo{
+
+    background-color: aliceblue;
+}
+.bodyfondo{
+
+    background-image: linear-gradient(90deg, #00ae1a 0%, #86d869 35%, #00d5ff 100%);
+}
